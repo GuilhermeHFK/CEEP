@@ -1,0 +1,72 @@
+p {
+    padding: 10px;
+}
+
+h3 {
+    padding-left: 10px;
+}
+
+body {
+    margin: 0 auto;
+    /*background-color: rgb(30, 55, 170);*/
+    background-image:url(../img/ceu.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 2000px;
+    background-position: center;
+}
+
+header {
+    /*background-image: linear-gradient(rgb(255, 59, 10),rgb(253, 156, 29,)rgb(255, 238, 5));*/
+    height: 200px;
+    line-height: 200px;
+    position: relative;
+    text-align: center;
+}
+
+header img {
+    padding: 25px;
+}
+
+.topo {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.corpo {
+    text-align: center;
+    /*background-color: rgb(220, 125, 0);*/
+    padding: 1%;
+    width: 23%;
+    float: left;
+}
+
+.corpo img {
+    border-radius: 25px;
+    height: 300px;
+}
+
+/*footer {
+    margin-top: 20px;
+    background-color: rgb(200, 200, 200);
+    padding: 15px;
+}*/
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    .corpo {
+        width: 45%;
+    }
+    .body {
+        background-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .corpo {
+        width: 100%;
+    }
+    .body {
+        background-size: 100%;
+    }
+}
