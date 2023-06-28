@@ -1,5 +1,5 @@
  <?php include 'inc/cabecalho.inc.php';?>
-  <div class="corpo">
+  <div class="sobre">
  <h1 class="principal">InfGames</h1>
  <hr>
        <p> 
@@ -43,4 +43,3 @@ ao uso da informática. Por suas raizes fortes, mesmo com os últimos períodos 
   </ol>
   </div>
    <?php include 'inc/rodape.inc.php';?>
-        

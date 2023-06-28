@@ -1,0 +1,21 @@
+header {
+    position: relative;
+    background-color: rgb(255, 0, 0);
+    height: 250px;
+}
+
+/*header img {
+    margin: auto;
+    display: block;
+}*/
+
+footer {
+    position: relative;
+    background-color: rgb(255, 0, 0);
+    height: 250px;
+}
+
+/*footer img {
+    margin: auto;
+    display: block;
+}*/

@@ -8,7 +8,7 @@ li {
 
 body {
     margin: 0 auto;
-    max-width: 70%;
+    max-width: 1200%;
     width: 100%;
     background-color: rgb(30, 55, 170);
     /*background-image:url(../img/);
@@ -60,11 +60,15 @@ header img {
     color: rgb(0, 0, 0);
 }
 
-.corpo {
+.sobre {
     text-align: center;
     background-color: rgb(220, 125, 0);
     padding: 15px;
     border: 5px solid rgb(200, 200, 200);
+}
+
+.sobre img {
+    height: 350px;
 }
 
 .menu_opcoes {
@@ -104,7 +108,48 @@ header img {
     color: black;
     box-shadow: 5px 5px 5px 5px black;
 }
+/*inicio corpo do site*/
+    .corpo {
+        position: relative;
+        width: 100%;
+        height: 800px;
+        background-color: orange;
+    }
 
+    .menu {
+        position: relative;
+        float: left;
+        width: 25%;
+        height: 300px;
+        background-color: rgb(160, 160, 160);
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-right: 10px;
+        border-radius: 15px;
+        box-shadow: 5px 5px 5px black;
+        /*transform: rotate(-5deg);*/
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .menu li {
+        background-color: bisque;
+        margin-bottom: 2px;
+        padding: 5px 10px;
+    }
+
+    .menu h2 {
+        text-align: center;
+    }
+
+    .destaque {
+        position: relative;
+        width: 74%;
+        height: 300px;
+        float: right;
+        background-color: aquamarine;
+    }
+/*fim corpo do site*/
 footer {
     margin-top: 20px;
     background-color: rgb(200, 200, 200);
