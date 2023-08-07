@@ -1,0 +1,19 @@
+body {
+    margin: 0 auto;
+}
+
+.teste {
+    width:600px;
+    height:300px;
+    background-color: aqua;
+}
+
+/* condição para quando a tela diminuir de 600px, o retangulo muda de cor e dimensão*/
+
+@media only screen and (max-width: 600px){
+    .teste {
+        background-color: pink;
+        width: 200px;
+    }
+}
+
