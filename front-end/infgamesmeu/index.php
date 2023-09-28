@@ -17,5 +17,36 @@
         <section class="destaque">
 
         </section>
+        <div class="paineis">
+            <section class="novidades">
+                <h2>Novidades</h2>
+                <ol>
+                    <li>
+                        <a href="notebook.php">
+                            <figure>
+                                <img src="img/positivo.jpg" alt="Ultima geração da positivo">
+                                <figcaption>note positivo por R$20.000,00</figcapition>
+                                <img src="img/ps4.png" alt="Ultima geração de consoles">
+                                <figcaption>PS4 por R$5.000,00</figcapition>
+                                <img src="img/positivo.jpg" alt="">
+                                <figcaption>note positivo por R$20.000,00</figcapition>
+                                <img src="img/positivo.jpg" alt="Ultima geração da positivo">
+                                <figcaption>note positivo por R$20.000,00</figcapition>
+                                <img src="img/positivo.jpg" alt="Ultima geração da positivo">
+                                <figcaption>note positivo por R$20.000,00</figcapition>
+                                <img src="img/positivo.jpg" alt="Ultima geração da positivo">
+                                <figcaption>note positivo por R$20.000,00</figcapition>
+                            </figure>
+                        </a>
+                    </li>
+                </ol>
+
+            </section>
+            <section class="mais_jogados">
+                <h2>Mais Jogados</h2>
+
+            </section>
+
+        </div>
     </div>
  <?php include 'inc/rodape.inc.php';?>

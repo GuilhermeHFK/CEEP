@@ -9,8 +9,8 @@ li {
 body {
     margin: 0 auto;
     max-width: 1200%;
-    width: 100%;
-    background-color: rgb(30, 55, 170);
+    width: 90%;
+    background-color: rgb(12, 0, 117);
     /*background-image:url(../img/);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -19,7 +19,7 @@ body {
 
 header {
     position: relative;
-    background-color: rgb(200, 200, 200);
+    background-color: rgb(255, 255, 255);
     height: 250px;
 }
 
@@ -27,18 +27,21 @@ header img {
     margin: auto;
     /*display: block;*/
     width: 250px;
+    padding-left: 25px;
 }
 
 .busca {
     position: relative;
     float: right;
-    background-color: rgb(100, 100, 100);
+    background-color: rgba(255, 255, 255, 0);
     margin: 5px;
     padding: 15px;
     font-weight: bold;
     text-transform: uppercase;
     width: 250px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding-left: 50px;
+    padding-top: 20px;
 }
 
 .busca button {
@@ -62,7 +65,7 @@ header img {
 
 .sobre {
     text-align: center;
-    background-color: rgb(220, 125, 0);
+    background-color: rgb(194, 135, 59);
     padding: 15px;
     border: 5px solid rgb(200, 200, 200);
 }
@@ -73,8 +76,10 @@ header img {
 
 .menu_opcoes {
     position: absolute;
-    bottom: 0;
+    bottom: 50px;
     right: 0;
+    margin-right: 100px;
+    margin-bottom: -20px;
 }
 
 .menu_opcoes ul {
@@ -83,13 +88,14 @@ header img {
     padding: 0;
     font-size: 20px;
     overflow: hidden;
-    background-color: rgb(100, 100, 100);
+    /*background-color: rgb(100, 100, 100);*/
+    margin-bottom: -50px;
 }
 
 .menu_opcoes ul li {
     display: inline;
     margin-left: 5px;
-    border-right: 5px solid rgb(200, 200, 200);
+    /*border-right: 5px solid rgb(200, 200, 200);*/
 }
 
 /*.menu_opcoes li:last-child {
@@ -97,15 +103,16 @@ header img {
 }*/
 
 .menu_opcoes a {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     padding: 5px 5px;
     text-align: center;
     text-decoration: none;
+    font-size: 25px;
 }
 
 .menu_opcoes li a:hover {
-    background-color: rgb(200, 200, 200);
-    color: black;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     box-shadow: 5px 5px 5px 5px black;
 }
 /*inicio corpo do site*/
@@ -113,7 +120,7 @@ header img {
         position: relative;
         width: 100%;
         height: 800px;
-        background-color: orange;
+        background-color: rgb(255, 255, 255);
     }
 
     .menu {
@@ -121,19 +128,19 @@ header img {
         float: left;
         width: 25%;
         height: 300px;
-        background-color: rgb(160, 160, 160);
+        background-color: rgb(148, 96, 0);
         font-weight: bold;
         text-transform: uppercase;
         margin-right: 10px;
-        border-radius: 15px;
+        /*border-radius: 15px;*/
         box-shadow: 5px 5px 5px black;
         /*transform: rotate(-5deg);*/
-        margin-top: 10px;
+        /*margin-top: 5px;*/
         margin-bottom: 10px;
     }
 
     .menu li {
-        background-color: bisque;
+        background-color: rgba(255, 255, 255, 0);
         margin-bottom: 2px;
         padding: 5px 10px;
     }
@@ -147,17 +154,44 @@ header img {
         width: 74%;
         height: 300px;
         float: right;
-        background-color: aquamarine;
+        background-color: rgb(0, 0, 0);
     }
+
+    .paineis {
+        position: relative;
+        width: 100%;
+        height: 400px;
+        background-color: rgb(11, 64, 68);
+        float: left;
+        margin-top: 30px;
+    }
+
+    .novidades {
+        position: relative;
+        float: left;
+        width: 50%;
+        background-color: aqua;
+        height: 400px;
+    }
+
+    .mais_jogados {
+        position: relative;
+        float: right;
+        width: 50%;
+        height: 400px;
+        background-color: brown;
+    }
+
 /*fim corpo do site*/
 footer {
     margin-top: 20px;
-    background-color: rgb(200, 200, 200);
+    background-color: rgb(255, 255, 255);
     padding: 15px;
 }
 
 footer img {
     width: 10%; 
+    padding-left: 25px;
 }
 
 footer p {
@@ -172,6 +206,12 @@ footer p {
     float: right;
     top: 12px;
     list-style: none;
+    margin-right: 50px;
+    margin-top: 25px;
+}
+
+.social img {
+    background-repeat: no-repeat;
 }
 
 .social li {
@@ -180,14 +220,14 @@ footer p {
 }
 
 .social a {
-    height: 32px;
-    width: 32px;
+    height: 50px;
+    width: 50px;
     display:block;
     text-indent: -9999px;
 }
 
 .social a[href*="facebook.com"] {
-    background-image: url(../img/facebook.png);
+    background-image: url(../img/face.jpg);
     border-radius: 10px;
 }
 
@@ -206,9 +246,16 @@ footer p {
 figure {
     padding: 10px;
     margin: 15px;
-    background-color: rgb(200, 200, 200);
-    border: 10px solid rgb(100, 100, 100);
+    background-color: rgba(200, 200, 200, 0);
+    border: 10px solid rgba(100, 100, 100, 0);
     text-align: center;
+}
+
+.novidades img {
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    display:inline;
 }
 
 figcaption {
